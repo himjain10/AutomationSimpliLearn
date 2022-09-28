@@ -16,7 +16,7 @@ public class SimplilearnLoginTest extends BaseClass{
 	@Test
 	public void Test1() {
 
-		test.log(LogStatus.INFO, "Test1 Started");
+	//	test.log(LogStatus.INFO, "Test1 Started");
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.Login("abc@xyz.com","Abc@1234" );
@@ -34,7 +34,7 @@ public class SimplilearnLoginTest extends BaseClass{
 
 	}
 
-	@Test
+	@Test(enabled=false)
 	@Parameters({"uname", "pwd"})
 	public void Test2(String UserName, String Password) {
 		
