@@ -34,7 +34,7 @@ public class SimplilearnLoginTest extends BaseClass{
 
 	}
 
-	@Test(enabled=false)
+	@Test
 	@Parameters({"uname", "pwd"})
 	public void Test2(String UserName, String Password) {
 		

@@ -8,7 +8,9 @@
       <class name="testcases.SimplilearnLoginTest">
         <methods>
           <include name="DataClean"/>
+          <include name="Test3"/>
           <include name="SetUp"/>
+          <include name="Test2" invocation-numbers="0"/>
           <include name="TearDown"/>
           <include name="Test1"/>
           <include name="DataSetUp"/>

@@ -15,7 +15,7 @@ public class LoginPage {
 	WebElement LoginLink ;
 
 	@FindBy(name="user_login")
-	WebElement UserName;
+	WebElement UserName ;
 
 	@FindBy(id="password")
 	WebElement Password;
